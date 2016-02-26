@@ -22,12 +22,12 @@
 \contentsline {experiment}{\numberline {5}The Inverting Amplifier}{8}{experiment.2.5}
 \contentsline {subexperiment}{\numberline {5.1}Procedure}{8}{subexperiment.2.5.1}
 \contentsline {subexperiment}{\numberline {5.2}Results}{8}{subexperiment.2.5.2}
-\contentsline {experiment}{\numberline {6}The Summing Amplifier}{8}{experiment.2.6}
-\contentsline {subexperiment}{\numberline {6.1}Procedure}{8}{subexperiment.2.6.1}
+\contentsline {experiment}{\numberline {6}The Summing Amplifier}{9}{experiment.2.6}
+\contentsline {subexperiment}{\numberline {6.1}Procedure}{9}{subexperiment.2.6.1}
 \contentsline {subexperiment}{\numberline {6.2}Results}{9}{subexperiment.2.6.2}
 \contentsline {experiment}{\numberline {7}The Differential Amplifier}{9}{experiment.2.7}
 \contentsline {subexperiment}{\numberline {7.1}Procedure}{9}{subexperiment.2.7.1}
-\contentsline {subexperiment}{\numberline {7.2}Results}{9}{subexperiment.2.7.2}
+\contentsline {subexperiment}{\numberline {7.2}Results}{10}{subexperiment.2.7.2}
 \contentsline {experiment}{\numberline {8}The Schmitt Trigger Comparator}{10}{experiment.2.8}
 \contentsline {subexperiment}{\numberline {8.1}Procedure}{10}{subexperiment.2.8.1}
-\contentsline {subexperiment}{\numberline {8.2}Results}{10}{subexperiment.2.8.2}
+\contentsline {subexperiment}{\numberline {8.2}Results}{11}{subexperiment.2.8.2}

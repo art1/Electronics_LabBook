@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.26)  26 FEB 2016 10:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.26)  26 FEB 2016 11:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -656,111 +656,29 @@ l.118 \include{LabOne/16Feb16}
 \openout2 = `LabTwo/18Feb16.aux'.
 
  (./LabTwo/18Feb16.tex
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 38.
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 40.
  [6
 
 
 
-]
-./LabTwo/18Feb16.tex:56: Missing $ inserted.
-<inserted text> 
-                $
-l.56 modifying Circuit of A -> R_
-                                 82 is R = 81.85 kOhm; R2 = 17.52kOhm
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+] [7]
 
-./LabTwo/18Feb16.tex:57: Missing $ inserted.
-<inserted text> 
-                $
-l.57 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-[7]
-./LabTwo/18Feb16.tex:109: Missing $ inserted.
-<inserted text> 
-                $
-l.109 R_
-        p should be 14.76kOhm (see lecture; because of imperfections) -> usi...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./LabTwo/18Feb16.tex:113: Missing $ inserted.
-<inserted text> 
-                $
-l.113 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (170.76038pt too wide) in paragraph at lines 109--113
-\OT1/cmr/m/n/10.95 R$[]\OML/cmm/m/it/10.95 shouldbe\OT1/cmr/m/n/10.95 14\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 76\OML/cmm/m/it/10.95 kOhm\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 seelecture\OT1/cmr/m/n/10.95 ; \OML/cmm/m/it/10.95 becauseofimperfections\OT1/cmr/m/n/10.95 )\OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 > using\OT1/cmr/m/n/10.95 14\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 962\OML/cmm/m/it/10.95 kOhm\OT1/cmr/m/n/10.95 2)53\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 9\OML/cmm/m/it/10.95 mVdcoffset\OT1/cmr/m/n/10.95 3)\OML/cmm/m/it/10.95 DCinputvotlage \OT1/cmr/m/n/10.95 :
- []
-
-./LabTwo/18Feb16.tex:126: Extra }, or forgotten \endgroup.
-l.126 }
-       
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./LabTwo/18Feb16.tex:130: Extra }, or forgotten \endgroup.
-l.130 }
-       
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./LabTwo/18Feb16.tex:134: Extra }, or forgotten \endgroup.
-l.134 }
-       
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./LabTwo/18Feb16.tex:144: Missing $ inserted.
-<inserted text> 
-                $
-l.144 using 11.957kOhm for R_
-                             2
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./LabTwo/18Feb16.tex:145: Missing $ inserted.
-<inserted text> 
-                $
-l.145 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+LaTeX Warning: Marginpar on page 8 moved.
 
 [8]
-./LabTwo/18Feb16.tex:201: Missing $ inserted.
-<inserted text> 
-                $
-l.201 R_
-        2.2 ->  2.1959kOhm
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¼ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¼ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¼ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¼ in font cmr10!
+ [9] [10]
 
-./LabTwo/18Feb16.tex:204: Missing $ inserted.
-<inserted text> 
-                $
-l.204 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+LaTeX Warning: Marginpar on page 11 moved.
 
-[9]) [10]
+) [11]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 229.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
  (/Users/arthur/E7003R_Electronics/Labbook/.texpadtmp/lab_book_1.aux (/Users/arthur/E7003R_Electronics/Labbook/.texpadtmp/LabOne/16Feb16.aux) (/Users/arthur/E7003R_Electronics/Labbook/.texpadtmp/LabTwo/18Feb16.aux))
@@ -771,18 +689,18 @@ Package rerunfilecheck Info: File `lab_book_1.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 229.
  ) 
 Here is how much of TeX's memory you used:
- 17970 strings out of 493089
- 342689 string characters out of 6134841
- 563595 words of memory out of 5000000
- 21055 multiletter control sequences out of 15000+600000
+ 18063 strings out of 493089
+ 344857 string characters out of 6134841
+ 576944 words of memory out of 5000000
+ 21125 multiletter control sequences out of 15000+600000
  10032 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,10n,78p,494b,697s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,10n,78p,494b,868s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on /Users/arthur/E7003R_Electronics/Labbook/.texpadtmp/lab_book_1.pdf (14 pages, 553316 bytes).
+Output written on /Users/arthur/E7003R_Electronics/Labbook/.texpadtmp/lab_book_1.pdf (15 pages, 555028 bytes).
 PDF statistics:
- 358 PDF objects out of 1000 (max. 8388607)
- 323 compressed objects within 4 object streams
- 94 named destinations out of 1000 (max. 500000)
+ 389 PDF objects out of 1000 (max. 8388607)
+ 353 compressed objects within 4 object streams
+ 117 named destinations out of 1000 (max. 500000)
  292 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,213 @@
+
+\labday{Thursday, 18 February 2016}
+
+
+\experiment{Basic Operational Amplifier Circuits - Introduction}
+
+for the appropriate circuts we connect the 2-Output SC Power SUpply in Series to get -15V and +15V; the middle Point(Point of connection between + of one and - of the oterh is connected to GND to have GND as reference).
+
+
+\experiment{The Voltage Follower}
+\subexperiment{Procedure}
+\begin{enumerate}
+	
+
+\item Connect up the circuit of the voltage follower shown in Circuit A below using a $\pm$ 15 V
+supply for the Op-amp.
+\item  Connect the input to ground, 0 Volts, and measure the dc output voltage using the multimeter. This is the output off-set voltage.
+\item  Apply a suitable dc voltage to the input, measure it and the dc output voltage and calculate
+the dc gain.
+\item  Apply a suitable ac voltage to the input and observe the output voltage on the oscilloscope.
+Measure the ac input voltage and the ac output voltage and calculate the ac gain.
+\end{enumerate}
+
+\subexperiment{Results}
+%2) applied 0 Volts -> output offset voltage: 2.5mV
+%3) measured: 5.03V at 5.02V applied -> Gain is 0.01V
+%4) AC Voltage RMS set to 0.302V -> Peak Value 2V (see pic) -> output ac value is as well 2V peak to peak (DC offset at bottom!) -> Gain is 2
+
+
+After connecting the 2-Output DC-Power Supply to a configuration that allows +15V and -15V Output as well as Ground (connecting the two Power Outputs in series, Ground reference taken from the middle of the connection) and connecting the circuit, the power supply is switched on.
+Now the Output Voltage is measured with a multimeter, which gives a value of \textbf{2.5mV}, which corresponds to the output offset voltage.
+\newline
+Now the input voltage is replaced with a 5.02V DC input provided by another DC Power Supply.
+\newline
+Measuring the Output Voltage again with the Voltmeter, gives a value of \textbf{5.03V}, which results in a gain of \textbf{0.1V}.
+
+
+Now the DC input is replaced with an AC input, set to 0.302V RMS, and the oscilloscope is connected. Measuring the Peak-to-Peak value of the curve (see image \todo{add image here and calculate proper gains!} ) gives a peak value of about 2V (the bottom is a bit more, because of the DC offset!), therefore the AC Gain is 2.
+
+
+
+
+\experiment{The Non-inverting Amplifier}
+
+\begin{enumerate}
+	\item Connect up the circuit of the non-inverting amplifier shown in Circuit B by modifying the
+above circuit A.
+
+	\item Repeat the steps 2, 3, and 4 of Procedure A above for this circuit.
+
+	\item Apply a square wave input to V$_{in}$ and observe the output voltage on the oscilloscope.
+Measure the slew rate of the amplifier output.
+\end{enumerate}
+
+\subexperiment{Results}
+modifying Circuit of A -> R_82 is R = 81.85 kOhm; R2 = 17.52kOhm 
+
+2) apply 0 Volta -> output ofset voltage: 24.7 mV
+3) DC VOltage input 0.992V; measured: 5.51V
+4) AC voltage input: peak to peak: 1V; -> (picture scope 17) peak to peak 5.6 Volt
+
+Chip burned twice -> turned off opa amp power supply before turning off the input power
+5) slew rate -> picture 19 or something; peak to peak voltage is 6.1; rise time 5.752; slew rate 6.1V / (1.5us * 5 us) = 0.813 us/V
+
+
+
+
+\experiment{The Current to Voltage Amplifier}
+
+\subexperiment{Procedure}
+\begin{enumerate}
+	\item Connect up the circuit of the current to voltage amplifier shown in Circuit C below again
+using a i 15 supply for the Op-amp.
+
+Circuit C 82 k9
+
+Iin
+V'O
+
+	\item Connect the input to ground, 0 Volts, and measure the dc output voltage using the multi-
+meter. This is the output off-set voltage.
+
+	\item To measure the input current to output voltage ratios, for do and for ac, for this circuit
+requires do and ac input currents. These can be obtained from appropriate voltage sources
+via suitable values of resistor. For the do and ac measurements decide on a value of current
+that will give you a convenient output voltage and choose suitable source voltages and
+resistor values to give these. For each apply the current to the input and measure it and the
+output voltage. Calculate the dc and the ac transfer impedances.
+
+\end{enumerate}
+
+\subexperiment{Results}
+Using again 82kOhm from before and a 10kOhm resistor (because it was available) -> this results in Vout of 8.2, with a current of 1mA -> nope, using 18kOhm to get 4.55V in the end as output;
+at first we got with input of 0V an output of about 13V; -> 71.5mV in the ned -> because cable was wrong connected;
+2) input DC 0.991V -> output oltage 4.41V
+3) AC input: 1V peak to peak; putput: 4.7V(scope 21)
+
+
+
+\experiment{The Inverting Amplifier}
+\subexperiment{Procedure}
+\begin{enumerate}
+	\item Connect up the circuit of the inverting amplifier shown in Circuit D by modifying the
+above circuit C. This involves the calculation of a suitable value for the resistor Rp.
+\item Repeat the steps 2, 3, and 4 of Procedure A above for this circuit.
+
+\end{enumerate}
+\subexperiment{Results}
+R_p should be 14.76kOhm (see lecture; because of imperfections) -> using 14.962kOhm
+2) 53.9mV dc offset
+3) DC input votlage: 0.991V (gain should be -4.555) DC output voltage: -4.42V
+4) AC peak to peak: 1V (pic 22)
+
+
+\experiment{The Summing Amplifier}
+\subexperiment{Procedure}
+\begin{enumerate}
+	\item Connect up the circuit of the inverting amplifier shown in Circuit E by modifying the above
+circuit D. This involves the recalculation of a suitable value for the resistor R1,
+Circuit E 18 k9. 82 k9
+Vl
+12 M)
+V,
+Vo
+
+}
+	\item Connect both of the inputs to ground, 0 Volts, and measure the dc output voltage using the
+multi-meter. This is the output off-set voltage.
+
+}
+	\item Apply two suitable dc voltages one to each of the inputs, measure them and the dc output
+voltage and calculate the relationship between the input voltages and the output voltage.
+
+}
+	\item Apply a suitable ac voltage to one input and say a square wave of a to the other input,
+inspect these and the output voltage using the oscilloscope and print out the appropriate
+screens. Account for the output voltage waveform in terms of the input voltages and the
+relationship between the inputs and the output. Vary the frequency of one of the inputs and
+inspect the results.
+
+\end{enumerate}
+\subexperiment{Results}
+Recalculation of Rp: 6.8 -> using 6.778kOhm
+using 11.957kOhm for R_2
+
+Applying 0V to both inputs: 119.6mV
+2) now apply  0.488V to both inputs -> V 5.39V
+theoretical : -5.55
+3) AC voltage: 0.6V peak to peak
+-> not using AC AC , but DC of 0.488V and AC of 0.5V peak to peak ; AC as swaure wave
+-> very noisy with small values
+using now AC Voltage (sine wave) -> recalculated (picture 23) -> varying the AC input makes the picture clearer =P
+
+\experiment{The Differential Amplifier}
+\subexperiment{Procedure}
+\begin{enumerate}
+	\item  Connect up the circuit of the differential amplifier shown in Circuit F below using a i 15
+supply for the op-amp and noting that all the resistors are identical in value.
+Circuit F 82 k!) 82 k!)
+V] - H
+82 ko. ' v,
+V2
+l 82 ko.
+
+\item  Connect both of the inputs to ground, 0 Volts, and measure the dc output voltage using the
+multi-meter. This is the output off-set voltage.
+
+\item  Connect the two inputs together and apply a large voltage (say 10 Volts) to them. Measure
+this input voltage and the output voltage and calculate the common mode gain, hopefully
+less than unity. You can consider subtracting the output off-set voltage from the common
+mode output voltage before calculating the common mode gain.
+
+4 Apply two very different values of dc voltage one to each of the inputs, measure them and
+the dc output voltage and calculate the relationship between the input voltages and the
+output voltage.
+
+\item  Repeat 4 with the two input voltages exchanged.
+
+\item  Apply two very similar but large values (say around 10 Volts) of dc voltage one to each of
+the inputs, measure them and the dc output voltage and calculate the relationship between
+the input voltages and the output voltage.
+
+\item  Repeat 6 with the two input voltages exchanged.
+\end{enumerate}
+\subexperiment{Results}
+2) offset -> 20.0mV
+3) setting INput voltage to 9.79V; measured output: 20.3mV
+V2 -> 4.98V
+V1 -> 7.19V
+-> Vout 2.188V
+now switch the V2 and V1
+-> Vout 2.242V
+5) V1 9.99V as input ; V2 = 10.56V -> output 0.607V
+6) switch them now -> Vout ->-0.544V
+
+
+\experiment{The Schmitt Trigger Comparator}
+\subexperiment{Procedure}
+\subexperiment{Results}
+
+R_2.2 ->  2.1959kOhm
+82 -> 81.77
+18 -> 17.991
+
+second part:
+
+
+slew rate -> 150ns
+see pic 27
+
+see pic 28 (use 10\% and 90\% for the measurements)
+12V -> per microseconds
+
